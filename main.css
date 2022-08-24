@@ -1,0 +1,183 @@
+*{
+box-sizing: border-box;
+margin: 0%;
+padding: 0%;
+font-family: ;
+}
+
+body{
+background-color: rgb(236, 206, 192);
+
+}
+
+.wrappper{
+
+max-width: 1200px;
+width: 850px;
+height: 550px;
+background-color: white;
+margin: 5% auto;
+display: flex;
+padding: 0%;
+border-radius: 1%;
+box-shadow: 5px 5px 20px rgb(93, 161, 174);
+}
+.wrapper:hover{
+
+  box-shadow: 5px 5px 20px rgb(151, 209, 234);
+}
+
+.nav-1{
+
+height: 550px;
+width: 35%;
+background: ;
+
+
+
+}
+
+.nav-2{
+
+
+
+}
+
+.link {
+ 
+  display: flex;
+  justify-content:flex-end;
+  justify-content: space-between;
+padding-left: 15rem ;
+ 
+}
+
+.link li{
+list-style: none;
+margin: 15px; 
+font-size: 11px;
+display: flex;
+
+                                                         
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover{
+  color: rgb(72, 6, 238); 
+}
+
+.title{
+  margin-top: 60px;
+  font-size: 54px;
+  padding: 5px 80px;
+  font-family:initial;
+  position: relative;
+  color: rgb(35, 31, 31);
+  
+}
+
+.title::after{
+  position: absolute;
+content:'';
+height: 0.5px;
+width: 90px;
+background-color: rgb(30, 25, 25);
+border: 2px solid rgb(28, 23, 23);
+margin-top: 2rem;
+
+}
+
+.nav-p{
+
+padding: 15px 80px;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.box{
+ 
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+.box-img{
+
+  padding: 20px 80px;
+
+}
+/* }
+.photo{
+margin: 0;
+padding: 0;
+position: relative;
+
+
+
+}
+
+.phtoo::after{
+  content: '';
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background-image: url(./vidyo\ u-n.svg);
+  background-size: cover ;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin: 50% auto;
+
+} */
+
+.box-p{
+ 
+ padding-right: 80px;
+ line-height: 1.5rem;
+ position: relative;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.a-link{
+font-size: 13px;
+  margin-top: 10px ;
+  color: rgb(16, 13, 13);
+  display: flex;
+  align-items: center;
+ 
+}
+
+.a-link::after{
+  content: '';
+  display: flex;  
+  margin: 0% 120px;
+  position: absolute;
+  background-image: url(./photos\ un.svg);
+  width: 20px;
+  height: 20px  ;
+  color: gray;
+  
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
